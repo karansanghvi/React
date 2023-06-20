@@ -12,6 +12,9 @@ import ParentComponent from './components/ParentComponent';
 import Stylesheet from './components/Stylesheet';
 import UserGreeting from './components/UserGreeting';
 import Welcome from './components/Welcome';
+import './appStyles.css'
+import styles from './appStyles.module.css'
+import Form from './components/Form';
 
 function App() {
   return (
@@ -63,7 +66,15 @@ function App() {
         {/* <Stylesheet primary={true}/> */}
 
         {/* APPROACH 2: USING INLINE CSS */}
-        <Inline/>
+        {/* <Inline/> */}
+
+        {/* APPROACH 3: CSS MODULES */}
+        {/* <h1 className='error'>Error</h1> */}
+        {/* in the below code styes is the import statement from the module stylesheet */}
+        {/* <h1 className={styles.success}>Success</h1> */}
+      
+      {/* form handling */}
+      <Form/>
     </div>
   );
 }

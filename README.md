@@ -19,3 +19,5 @@ Topics cleared in this tutorial are as follows:
 16. Lists and Keys
 17. Index as key anti-pattern
 18. Styling and CSS Basics
+19. Form Handling
+20. Component Lifecycle Methods (Mounting, Updating, Unmounting, Error Handling)

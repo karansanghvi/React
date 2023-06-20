@@ -11,3 +11,5 @@ export default function Person({person}) {
     </div>
   )
 }
+
+//! KEY PROPERTY ARE NOT ACCESSIBLE IN THE CHILD COMPONENTS

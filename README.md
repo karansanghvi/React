@@ -1,4 +1,4 @@
-### REACT TUTORIAL
+### REACT TUTORIAL - BASICS
 Topics cleared in this tutorial are as follows:
 
 1. Hello world

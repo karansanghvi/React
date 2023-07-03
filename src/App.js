@@ -59,6 +59,7 @@ function App() {
 
       {/* list rendering */}
       <NameList/>
+      
 
       {/* styling in css */}
 
